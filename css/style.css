@@ -1,5 +1,6 @@
 .color-red{ color: #a70209; }
 .main-logo{ width: 50%; }
+.googleMaps{ cursor: pointer; }
 .main-text{ color: #f91111; text-shadow: 1px 1px #170303; font-weight: bold; padding: 10px; }
 .padding10{ padding: 10px; }
 .padding-bottom20{ padding-bottom: 20px; }
@@ -7,3 +8,32 @@
 .slider-thumbs{ width: 80%; right: 10%; left: 10%; margin: 0 auto;}
 .max-width-100-perc { max-width: 100% }
 .slider-img { max-width: 100% }
+a {
+    color: #a70209;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.btn-default {
+    border: 1px solid #a70209;
+    color: #a70209;
+    background-color: transparent;
+}
+
+default:hover {
+    border: 1px solid #a70209;
+    outline: 0;
+    color: #a70209;
+    background-color: #FFF;
+}
+.btn-default:focus, .btn-default:hover {
+    border: 1px solid #a70209;
+    outline: 0;
+    color: #a70209;
+    background-color: #FFF;
+}
+
+a:focus, a:hover {
+    text-decoration: none;
+    color: #FFF;
+}
